@@ -2,6 +2,7 @@ package com.example.asistenciadocente.DataBase;
 
 public class Usuario {
     public String Nombre;
+    public String Texto;
     public String Titulo;
     public String Correo;
     public String Dias;
