@@ -2,7 +2,8 @@ package com.example.asistenciadocente.DataBase;
 
 public class Usuario {
     public String Nombre;
-    public String Texto;
+
+    //Comentario de prueba
     public String Titulo;
     public String Correo;
     public String Dias;
