@@ -29,6 +29,7 @@ import android.widget.Toast;
 
 import com.example.asistenciadocente.DataBase.Usuario;
 import com.example.asistenciadocente.R;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -38,6 +39,7 @@ import java.util.Locale;
 
 public class DocenteFragment extends Fragment {
     String idaux;
+    FirebaseAuth mAuth;
     Button btnaggDocente;
     DatabaseReference referencia; // Declaración de la variable 'referencia'.
 
@@ -185,6 +187,7 @@ public class DocenteFragment extends Fragment {
             public void onClick(View view) {
                 referencia.child("tb_usuarios").get().addOnCompleteListener(task -> {
                     if (task.isSuccessful() && task.getResult().getValue() != null) {
+                        mAuth = FirebaseAuth.getInstance();
                         HashMap<String, Object> data = (HashMap<String, Object>) task.getResult().getValue();
                         int maxID = -1;
                         for (String key : data.keySet()) {
@@ -202,15 +205,12 @@ public class DocenteFragment extends Fragment {
                         Usuario usuario = new Usuario(nombre.getText().toString(), titulo.getText().toString(), correo.getText().toString(), txtdias.getText().toString(), txtentrada.getText().toString(), txtsalida.getText().toString(), true, "Docente", "https://firebasestorage.googleapis.com/v0/b/asistencia-docente-1e9f0.appspot.com/o/Imagenes%2Fperfil.png?alt=media&token=8b5b8b1a-5b0a-4b0a-9b0a-5b0a4b0a9b0a");
                         referencia.child("tb_usuarios").child(nuevoIDString).setValue(usuario);
                         Toast.makeText(getContext(), "Docente agregado correctamente", Toast.LENGTH_SHORT).show();
+                        mAuth.createUserWithEmailAndPassword(correo.getText().toString(), "Minerva.23");
                         dialog.dismiss();
                     }
                 });
             }
         });
-
-
-
-
         View dialogContainer = dialog.findViewById(R.id.dialogContainer);
         final float[] startY = {0};
         final float[] offsetY = {0};

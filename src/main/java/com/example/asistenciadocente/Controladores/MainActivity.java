@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
     DatabaseReference referencia;
     String codigoUsuario;
     private static final int RC_SIGN_IN = 9001;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,6 +68,53 @@ public class MainActivity extends AppCompatActivity {
         });
 
         handleAccountSelection(); // Comprobamos si el usuario ya ha iniciado sesión
+        //Validamos si ingresa sesion con codigo y contraseña
+        btnIngresar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String carnetUsuario = carnet.getText().toString();
+                String passwordUsuario = password.getText().toString();
+                if (carnetUsuario.isEmpty() || passwordUsuario.isEmpty()) {
+                    Toast.makeText(MainActivity.this, "Debe ingresar todos los campos", Toast.LENGTH_SHORT).show();
+                } else {
+                    referencia = FirebaseDatabase.getInstance().getReference("tb_usuarios");
+                    //Se obtiene el codigo y se buscara el correo para iniciar sesion con correo y contraseña
+                    referencia.orderByKey().equalTo(carnetUsuario).addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                            if (dataSnapshot.exists()){
+                                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                                    String correo = snapshot.child("Correo").getValue().toString();
+                                    mAuth.signInWithEmailAndPassword(correo, passwordUsuario)
+                                            .addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
+                                                @Override
+                                                public void onComplete(@NonNull Task<AuthResult> task) {
+                                                    if (task.isSuccessful()) {
+                                                        // El usuario ha iniciado sesión exitosamente
+                                                        //Enviamos el codigo del usuario a la siguiente actividad
+                                                        Intent intent = new Intent(MainActivity.this, Home.class);
+                                                        intent.putExtra("codigoUsuario", carnetUsuario);
+                                                        startActivity(intent);
+                                                        finish();
+                                                    } else {
+                                                        // Si falla la autenticación muestra alerta
+                                                        AlertaEmail();
+                                                    }
+                                                }
+                                            });
+                                }
+                            }else{
+                                Toast.makeText(MainActivity.this, "El usuario no existe", Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError databaseError) {
+                            // Manejar el error de la consulta
+                        }
+                    });
+                }
+            }
+        });
     }
 
     private void signInWithGoogle() {
@@ -104,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
                                 String email = user.getEmail();
                                 // Realizar consulta a la base de datos
                                 DatabaseReference referencia = FirebaseDatabase.getInstance().getReference("tb_usuarios");
-                                referencia.orderByChild("correo").equalTo(email).addListenerForSingleValueEvent(new ValueEventListener() {
+                                referencia.orderByChild("Correo").equalTo(email).addListenerForSingleValueEvent(new ValueEventListener() {
                                     @Override
                                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                         if (dataSnapshot.exists()) {
