@@ -1,0 +1,4 @@
+com.example.asistenciadocente.test.app-androidTest-0 C:\Users\elian\AndroidStudioProjects\AsistenciaDocente\app\build\generated\res\resValues\androidTest\debug
+com.example.asistenciadocente.test.app-mergeDebugAndroidTestResources-1 C:\Users\elian\AndroidStudioProjects\AsistenciaDocente\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.asistenciadocente.test.app-mergeDebugAndroidTestResources-2 C:\Users\elian\AndroidStudioProjects\AsistenciaDocente\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.asistenciadocente.test.app-merged_res-3 C:\Users\elian\AndroidStudioProjects\AsistenciaDocente\app\build\intermediates\merged_res\debugAndroidTest
