@@ -12,6 +12,7 @@ MERGED from [com.google.firebase:firebase-database:20.2.2] C:\Users\elian\.gradl
 MERGED from [com.google.firebase:firebase-analytics:21.3.0] C:\Users\elian\.gradle\caches\transforms-3\f1c3eda9a4fee643ab0386cd7d1127b0\transformed\firebase-analytics-21.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\elian\.gradle\caches\transforms-3\89bce446ecb3973764b37779bde45cbf\transformed\firebase-auth-22.1.1\AndroidManifest.xml:17:1-75:12
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\elian\.gradle\caches\transforms-3\2a29d53025b2c9ba0c3e738d17ed6279\transformed\glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\elian\.gradle\caches\transforms-3\e5e9c170aeb8cc837c746fbdcb4e4212\transformed\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\elian\.gradle\caches\transforms-3\c5ad315f63831c202ac4db8819ecde23\transformed\play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\elian\.gradle\caches\transforms-3\0d3ab3f95f205abf068120ce314ceddf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:17:1-56:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\elian\.gradle\caches\transforms-3\a5ad04b957d0f93a606bc7ac611b63ce\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
@@ -112,6 +113,8 @@ MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\elian\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\elian\.gradle\caches\transforms-3\89bce446ecb3973764b37779bde45cbf\transformed\firebase-auth-22.1.1\AndroidManifest.xml:28:5-73:19
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\elian\.gradle\caches\transforms-3\2a29d53025b2c9ba0c3e738d17ed6279\transformed\glide-4.12.0\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\elian\.gradle\caches\transforms-3\2a29d53025b2c9ba0c3e738d17ed6279\transformed\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\elian\.gradle\caches\transforms-3\e5e9c170aeb8cc837c746fbdcb4e4212\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\elian\.gradle\caches\transforms-3\e5e9c170aeb8cc837c746fbdcb4e4212\transformed\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\elian\.gradle\caches\transforms-3\c5ad315f63831c202ac4db8819ecde23\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\elian\.gradle\caches\transforms-3\c5ad315f63831c202ac4db8819ecde23\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\elian\.gradle\caches\transforms-3\0d3ab3f95f205abf068120ce314ceddf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
@@ -252,6 +255,8 @@ MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\elian\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:22.1.1] C:\Users\elian\.gradle\caches\transforms-3\89bce446ecb3973764b37779bde45cbf\transformed\firebase-auth-22.1.1\AndroidManifest.xml:21:5-23:64
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\elian\.gradle\caches\transforms-3\2a29d53025b2c9ba0c3e738d17ed6279\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\elian\.gradle\caches\transforms-3\2a29d53025b2c9ba0c3e738d17ed6279\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\elian\.gradle\caches\transforms-3\e5e9c170aeb8cc837c746fbdcb4e4212\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\elian\.gradle\caches\transforms-3\e5e9c170aeb8cc837c746fbdcb4e4212\transformed\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\elian\.gradle\caches\transforms-3\c5ad315f63831c202ac4db8819ecde23\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\elian\.gradle\caches\transforms-3\c5ad315f63831c202ac4db8819ecde23\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
 MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\elian\.gradle\caches\transforms-3\0d3ab3f95f205abf068120ce314ceddf\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44

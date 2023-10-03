@@ -1,234 +1,238 @@
 [
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_minerva_sola_white.png.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\minerva_sola_white.png"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\anim_left_in.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\anim\\left_in.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\layout_nav_header.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\layout\\nav_header.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_ic_baseline_clear_24.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\ic_baseline_clear_24.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\layout_fragment_incapa.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\layout\\fragment_incapa.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\anim_fade_out.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\anim\\fade_out.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_borderadius.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\borderadius.xml"
     },
     {
-        "merged": "com.example.asistenciadocente.app-merged_res-33:/layout_adddocente.xml.flat",
-        "source": "com.example.asistenciadocente.app-main-35:/layout/adddocente.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\layout_fragment_incapa.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\layout\\fragment_incapa.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_editborder.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\editborder.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\anim_slide_out_bottom.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\anim\\slide_out_bottom.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\anim_slide_out_bottom.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\anim\\slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_ic_profesor.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\ic_profesor.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\layout_fragment_bitacora.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\layout\\fragment_bitacora.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\anim_slide_in_bottom.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\anim\\slide_in_bottom.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_ic_incapacidades.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\ic_incapacidades.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\ic_logout.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_baseline_search_24.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\baseline_search_24.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_ic_baseline_video_library_24.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\ic_baseline_video_library_24.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\anim_right_out.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\anim\\right_out.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_baseline_add_circle_outline_24.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\baseline_add_circle_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_degradadobg.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\degradadobg.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_borderadius.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\borderadius.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_ic_round_remove_24.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\ic_round_remove_24.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_dialogbg.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\dialogbg.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_ic_bitacora.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\ic_bitacora.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_editborder.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\editborder.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\layout_nav_header.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\layout\\nav_header.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_reversebg.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\reversebg.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_baseline_remove_24.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\baseline_remove_24.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\menu_menu_docente.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\menu\\menu_docente.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\layout_fragment_docente.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\layout\\fragment_docente.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\anim_zoom_back_out.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\anim\\zoom_back_out.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_ic_round_remove_24.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\ic_round_remove_24.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\anim_right_in.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\anim\\right_in.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\anim_slide_in_bottom.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\anim\\slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\anim_right_in.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\anim\\right_in.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_minerva_sola_white.png.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\minerva_sola_white.png"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_baseline_remove_24.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\baseline_remove_24.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\menu_menu_home.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\menu\\menu_home.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\anim_zoom_back_in.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\anim\\zoom_back_in.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\layout_fragment_bitacora.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\layout\\fragment_bitacora.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_ic_profesor.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\ic_profesor.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\ic_home.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_pp.png.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\pp.png"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_baseline_lupa.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\baseline_lupa.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\anim_left_out.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\anim\\left_out.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_ic_incapacidades.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\ic_incapacidades.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\anim\\fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\menu_menu_home.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\menu\\menu_home.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_ic_bitacora.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\ic_bitacora.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\baseline_search_24.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_degradadobg.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\degradadobg.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\anim_fade_in.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\anim\\fade_in.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\layout_adddocente.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\layout\\adddocente.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\anim\\fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\layout_boxdocente.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\layout\\boxdocente.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\layout_fragment_docente.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\layout\\fragment_docente.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_ic_baseline_clear_24.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\ic_baseline_clear_24.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\anim_zoom_back_out.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\anim\\zoom_back_out.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_baseline_add_circle_outline_24.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\baseline_add_circle_outline_24.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\layout_adddocente.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\layout\\adddocente.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_baseline_lupa.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\baseline_lupa.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_ic_baseline_video_library_24.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\ic_baseline_video_library_24.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\layout_activity_registrar_docente.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\layout\\activity_registrar_docente.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\anim_zoom_back_in.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\anim\\zoom_back_in.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\anim_right_out.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\anim\\right_out.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_pp.png.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\pp.png"
+        "merged": "com.example.asistenciadocente.app-merged_res-34:/layout_boxdocente.xml.flat",
+        "source": "com.example.asistenciadocente.app-main-36:/layout/boxdocente.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\anim_left_in.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\anim\\left_in.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_reversebg.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\reversebg.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_ic_logout.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\ic_logout.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\layout_activity_registrar_docente.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\layout\\activity_registrar_docente.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\drawable_dialogbg.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\drawable\\dialogbg.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\drawable\\logo.png"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-33:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-35:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\menu_menu_docente.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\menu\\menu_docente.xml"
+    },
+    {
+        "merged": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-merged_res-34:\\anim_left_out.xml.flat",
+        "source": "C:\\Users\\elian\\.gradle\\daemon\\8.0\\com.example.asistenciadocente.app-main-36:\\anim\\left_out.xml"
     }
 ]

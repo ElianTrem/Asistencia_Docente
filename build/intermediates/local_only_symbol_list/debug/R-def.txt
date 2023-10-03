@@ -47,6 +47,10 @@ id BtnGoogle
 id BtnLog
 id Card_Login
 id CoidgoDoc
+id Display_Name
+id Display_codigo
+id Display_pp
+id Display_titulo
 id Edit_Carnet
 id Edit_Contra
 id ImgMinerva
@@ -61,6 +65,7 @@ id btn_entrada
 id btn_salida
 id button
 id cancelButton
+id cardView
 id cont_correo
 id cont_nombre
 id cont_titulo
@@ -69,6 +74,7 @@ id dragger
 id drawer_layout
 id fragment_container
 id imgQR
+id list_docentes
 id nav_bit
 id nav_bit_doc
 id nav_doc
@@ -94,6 +100,7 @@ layout activity_home
 layout activity_main
 layout activity_registrar_docente
 layout adddocente
+layout boxdocente
 layout fragment_bitacora
 layout fragment_docente
 layout fragment_home

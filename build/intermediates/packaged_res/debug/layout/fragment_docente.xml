@@ -57,8 +57,9 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <ListView
-            android:layout_width="413dp"
-            android:layout_height="563dp"
+            android:id="@+id/list_docentes"
+            android:layout_width="396dp"
+            android:layout_height="559dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

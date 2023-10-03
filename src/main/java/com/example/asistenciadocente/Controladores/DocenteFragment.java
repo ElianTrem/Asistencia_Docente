@@ -1,5 +1,6 @@
 package com.example.asistenciadocente.Controladores;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
@@ -11,6 +12,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+
 import java.util.HashMap;
 
 import android.view.Gravity;
@@ -23,10 +25,12 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.example.asistenciadocente.Controladores.Adaptadores.AdapterDocente;
 import com.example.asistenciadocente.DataBase.Usuario;
 import com.example.asistenciadocente.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -35,23 +39,29 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Locale;
 
 public class DocenteFragment extends Fragment {
     String idaux;
+    public ListView listvdocente;
+    public ArrayList<Usuario> listadeDocentes;
+    public AdapterDocente adapter;
     FirebaseAuth mAuth;
     Button btnaggDocente;
-    DatabaseReference referencia; // Declaración de la variable 'referencia'.
 
+    DatabaseReference referencia = FirebaseDatabase.getInstance().getReference(); // Inicialización directa
+    @SuppressLint("MissingInflatedId")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_docente, container, false);
         btnaggDocente = view.findViewById(R.id.Add_Doc); // Asignación de 'btnaggDocente'
-
+        Cargar_Docente();
         // Conectamos la base de datos
         referencia = FirebaseDatabase.getInstance().getReference();
+        listvdocente = view.findViewById(R.id.list_docentes); // Asignación de 'listvdocente'
 
         btnaggDocente.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,8 +73,39 @@ public class DocenteFragment extends Fragment {
                 }
             }
         });
+
         return view; // Retorna la vista inflada.
     }
+
+    public void Cargar_Docente() {
+        listadeDocentes = new ArrayList<Usuario>();
+        referencia.child("tb_usuarios").get().addOnCompleteListener(task -> {
+            if (task.isSuccessful() && task.getResult().getValue() != null) {
+                HashMap<String, Object> data = (HashMap<String, Object>) task.getResult().getValue();
+                for (String key : data.keySet()) {
+                    HashMap<String, Object> data2 = (HashMap<String, Object>) data.get(key);
+                    Usuario docente = new Usuario();
+                    docente.Nombre = data2.get("Nombre").toString();
+                    docente.Titulo = data2.get("Titulo").toString();
+                    docente.Correo = data2.get("Correo").toString();
+                    docente.Dias = data2.get("Dias").toString();
+                    docente.Entrada = data2.get("Entrada").toString();
+                    docente.Salida = data2.get("Salida").toString();
+                    docente.Rol = data2.get("Rol").toString();
+                    docente.Estado = Boolean.parseBoolean(data2.get("Estado").toString());
+                    docente.PP = data2.get("PP").toString();
+                    docente.Codigo = data2.get("Codigo").toString();
+
+                    // Agregar el docente a la lista
+                    listadeDocentes.add(docente);
+                }
+                adapter = new AdapterDocente(listadeDocentes, getContext());
+                listvdocente.setAdapter(adapter);
+            }
+        });
+    }
+
+
     private void mostrarTimePickerDialog(final TextView textView) {
         Calendar cal = Calendar.getInstance();
         int hora = cal.get(Calendar.HOUR_OF_DAY);
@@ -131,7 +172,6 @@ public class DocenteFragment extends Fragment {
         });
         builder.show();
     }
-
 
 
     private void showBottomDialog() {
@@ -202,7 +242,7 @@ public class DocenteFragment extends Fragment {
 
                         // Guardar el docente con el nuevo ID
                         String nuevoIDString = String.valueOf(nuevoIDFormateado);
-                        Usuario usuario = new Usuario(nombre.getText().toString(), titulo.getText().toString(), correo.getText().toString(), txtdias.getText().toString(), txtentrada.getText().toString(), txtsalida.getText().toString(), true, "Docente", "https://firebasestorage.googleapis.com/v0/b/asistencia-docente-1e9f0.appspot.com/o/Imagenes%2Fperfil.png?alt=media&token=8b5b8b1a-5b0a-4b0a-9b0a-5b0a4b0a9b0a");
+                        Usuario usuario = new Usuario(nombre.getText().toString(), titulo.getText().toString(), correo.getText().toString(), txtdias.getText().toString(), txtentrada.getText().toString(), txtsalida.getText().toString(), true, "Docente", "https://firebasestorage.googleapis.com/v0/b/asistencia-docente-1e9f0.appspot.com/o/Imagenes%2Fperfil.png?alt=media&token=8b5b8b1a-5b0a-4b0a-9b0a-5b0a4b0a9b0a", nuevoIDString);
                         referencia.child("tb_usuarios").child(nuevoIDString).setValue(usuario);
                         Toast.makeText(getContext(), "Docente agregado correctamente", Toast.LENGTH_SHORT).show();
                         mAuth.createUserWithEmailAndPassword(correo.getText().toString(), "Minerva.23");

@@ -12,18 +12,24 @@ public class Usuario {
     public boolean Estado;
     public String Rol;
     public String PP;
+    public String Codigo;
 
-    public Usuario(String nombre, String titulo, String correo, String dias, String entrada, String salida, boolean estado, String rol, String PP) {
-        Nombre = nombre;
-        Titulo = titulo;
-        Correo = correo;
-        Dias = dias;
-        Entrada = entrada;
-        Salida = salida;
-        Estado = estado;
-        Rol = rol;
+    public Usuario(String Nombre, String Titulo, String Correo, String Dias, String Entrada, String Salida, boolean Estado, String Rol, String PP, String Codigo){
+        this.Nombre = Nombre;
+        this.Titulo = Titulo;
+        this.Correo = Correo;
+        this.Dias = Dias;
+        this.Entrada = Entrada;
+        this.Salida = Salida;
+        this.Estado = Estado;
+        this.Rol = Rol;
         this.PP = PP;
+        this.Codigo = Codigo;
     }
 
+
+    public Usuario() {
+
+    }
 }
 
