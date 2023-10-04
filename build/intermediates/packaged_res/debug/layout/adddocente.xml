@@ -7,7 +7,6 @@
     android:id="@+id/dialogContainer"
     android:background="@drawable/dialogbg">
 
-
     <ImageView
         android:id="@+id/dragger"
         android:layout_width="70dp"

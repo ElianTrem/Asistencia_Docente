@@ -101,6 +101,7 @@ layout activity_main
 layout activity_registrar_docente
 layout adddocente
 layout boxdocente
+layout editdocente
 layout fragment_bitacora
 layout fragment_docente
 layout fragment_home
